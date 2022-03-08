@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="colorized-red">Aşk sevgi çiçek kavga.</h1>
+    <h1 class="colorized-red">Deneme</h1>
     {{ msg }}
   </div>
 </template>

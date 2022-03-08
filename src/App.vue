@@ -1,21 +1,20 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Hello Vju in CodeSandbox!" />
-
-    <Trying />
+    <Navbar />
+    <Header />
   </div>
 </template>
 
 
 <script>
-import HelloWorld from "./components/HelloWorld";
-import Trying from "./components/Trying";
+import Header from "./components/Header";
+import Navbar from "./components/Navbar";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
-    Trying,
+    Navbar,
+    Header,
   },
 };
 </script>
@@ -27,6 +26,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
